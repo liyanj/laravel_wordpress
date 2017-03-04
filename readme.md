@@ -54,4 +54,4 @@ The laravel_wordpress is open-sourced software. Feel free to enjoy it.
 
 Any issues, do not hesitate to contact me via email( LIYJ87@126.COM ) or Wechat( NiceLifeStyle ).
 
-Thanks to Mr. Junior Grossi (Author of the Corcel).
+Thanks to Laravel, WordPress and Mr. Junior Grossi (Author of the Corcel).
