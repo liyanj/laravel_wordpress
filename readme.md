@@ -37,9 +37,13 @@ The laravel_wordpress is composed of Laravel 5.4 as Frontend and WordPress 4.7.2
 Please visit below url to enjoy your laravel_wordpress.
 
 http://test.laravel-wordpress.com/ : Laravel default welcome page;
+
 http://test.laravel-wordpress.com/user : Get data from table wp_users.
+
 http://test.laravel-wordpress.com/post : Get data from table wp_posts.
+
 http://test.laravel-wordpress.com/comment : Get data from table wp_comments.
+
 http://test.laravel-wordpress.com/admin : Access to the backend(admin panel) of WordPress. Username:root, Password:123456.
 
 ## License
@@ -49,3 +53,5 @@ The laravel_wordpress is open-sourced software. Feel free to enjoy it.
 ##Contacts
 
 Any issues, do not hesitate to contact me via email( LIYJ87@126.COM ) or Wechat( NiceLifeStyle ).
+
+Thanks to Mr. Junior Grossi (Author of the Corcel).
