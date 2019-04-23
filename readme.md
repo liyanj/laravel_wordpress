@@ -10,7 +10,7 @@ The laravel_wordpress is composed of Laravel 5.4 as Frontend and WordPress 4.7.2
 1. Clone or download this repository to your web root.
 2. Create mysql database named as laravel_wordpress. Execute laravel_wordpress.sql to seed data.
 3. In table wp_options, update the option_value of both siteurl and home according to your site domain name. In my case, it is "http://test.laravel-wordpress.com/admin" because my VHost name is "http://test.laravel-wordpress.com". 
-If you use nginx, pls ensure "index.html" takes precedence over "index.php", such as "index  index.html index.php". You can discover the detailed reason  in file laravel_wordpress/public/admin/index.html.
+Pls ensure "index.html" takes precedence over "index.php". If you use nginx such as "index index.html index.php". You can discover the detailed reason in file laravel_wordpress/public/admin/index.html.
 3. In table wp_options, update the option_value of both siteurl and home according to your site domain name. In my case, it is "http://test.laravel-wordpress.com/admin" because my VHost name is "http://test.laravel-wordpress.com". 
 4. In /config/database.php, modify your database configuration as below.
 'wordpress' => [ 
